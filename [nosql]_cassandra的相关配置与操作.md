@@ -113,6 +113,7 @@ select * from tab_001 where create_time >= '2021-05-04' ALLOW FILTERING;
 用于修改非primary_key字段
 
 alter table tab_001 drop doc_detail;
+
 alter table tab_001 add doc_details varchar;
 
 #### 7、expand on
