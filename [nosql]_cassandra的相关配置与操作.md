@@ -2,7 +2,7 @@
 
 介绍cassandra的配置方式与常用的操作。
 
-本文基于cassandra的3.11.2版本的使用经验总结。
+本文基于cassandra的3.11.2版本的使用经验总结而成。
 
 各版本的官方文档： https://cassandra.apache.org/doc/
 
