@@ -82,7 +82,7 @@ create table tab_001 (doc_id varchar, partner_key varchar, doc_key varchar, titl
 
 https://cassandra.apache.org/doc/latest/cassandra/cql/types.html#native-types
 
-### 3、describe
+#### 3、describe
 
 查看ks或者table的信息，主要是创建信息。
 
