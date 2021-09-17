@@ -40,7 +40,7 @@ upstream upst_1{
 	hash $remote_addr consistent;
 	server 192.168.1.1:8819;
 	server 192.168.1.2:8819;
-    server 192.168.1.3:8819;
+	server 192.168.1.3:8819;
 }
 ```
 
@@ -58,8 +58,8 @@ upstream upst_1{
 stream {
     upstream upst_1 {
 		##hash $remote_addr consistent;
-        server 192.168.4.1:9916 weight=5 max_fails=1 fail_timeout=10s;
-        server 192.168.4.2:9916 weight=5 max_fails=1 fail_timeout=10s;
+		server 192.168.4.1:9916 weight=5 max_fails=1 fail_timeout=10s;
+		server 192.168.4.2:9916 weight=5 max_fails=1 fail_timeout=10s;
     }
 
     server {
@@ -76,7 +76,7 @@ stream {
 ```nginx
 server
 {
-	listen *:80;
+    listen *:80;
     server_name     dictxwang.cc;
     error_log logs/cc.xxx.com_error.log error;
     charset  utf-8;
