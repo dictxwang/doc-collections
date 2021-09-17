@@ -20,8 +20,8 @@
 ```nginx
 upstream upst_1{
 	server 192.168.3.102:80 weight=1;
-    server 192.168.3.103:80 weight=1 backup;
-    server 192.168.3.104:80 weight=1 down;
+	server 192.168.3.103:80 weight=1 backup;
+	server 192.168.3.104:80 weight=1 down;
 }
 ```
 
@@ -29,7 +29,7 @@ upstream upst_1{
 ```nginx
 upstream upst_1{
 	server 127.0.0.1:8080 ;
-    server 127.0.0.1:9090 ;
+	server 127.0.0.1:9090 ;
 	ip_hash;
 }
 ```
@@ -38,9 +38,9 @@ upstream upst_1{
 ```nginx
 upstream upst_1{
 	hash $remote_addr consistent;
-    server 192.168.1.1:8819;
-    server 192.168.1.2:8819;
-	server 192.168.1.3:8819;
+	server 192.168.1.1:8819;
+	server 192.168.1.2:8819;
+    server 192.168.1.3:8819;
 }
 ```
 
@@ -48,8 +48,8 @@ upstream upst_1{
 ```nginx
 upstream upst_1{
 	server 192.168.2.1:9916 weight=5 max_fails=1 fail_timeout=10s;
-    server 192.168.2.2:9916 weight=5 max_fails=1 fail_timeout=10s;
-    server 192.168.2.3:9916 weight=5 max_fails=1 fail_timeout=10s;
+	server 192.168.2.2:9916 weight=5 max_fails=1 fail_timeout=10s;
+	server 192.168.2.3:9916 weight=5 max_fails=1 fail_timeout=10s;
 }
 ```
 
@@ -58,7 +58,7 @@ upstream upst_1{
 stream {
     upstream upst_1 {
 		##hash $remote_addr consistent;
-	    server 192.168.4.1:9916 weight=5 max_fails=1 fail_timeout=10s;
+        server 192.168.4.1:9916 weight=5 max_fails=1 fail_timeout=10s;
         server 192.168.4.2:9916 weight=5 max_fails=1 fail_timeout=10s;
     }
 
@@ -76,58 +76,58 @@ stream {
 ```nginx
 server
 {
-        listen *:80;
-		server_name     dictxwang.cc;
-		error_log logs/cc.xxx.com_error.log error;
-		charset  utf-8;
+	listen *:80;
+    server_name     dictxwang.cc;
+    error_log logs/cc.xxx.com_error.log error;
+    charset  utf-8;
 
-		location ~* ^/ccfile/(.*)$ {
-				proxy_set_header Host file.cc.xxx.com;
-				proxy_set_header X-Forwarded-Host $host;
-				proxy_set_header X-Forwarded-Server $host;
-				proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-				rewrite ^/cefile/(.*) /$1 break;  # rewrite 配置
-				proxy_pass     http://file.cc.xxx.com;  # 直接转发到域名
-		}
+    location ~* ^/ccfile/(.*)$ {
+        proxy_set_header Host file.cc.xxx.com;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        rewrite ^/cefile/(.*) /$1 break;  # rewrite 配置
+        proxy_pass     http://file.cc.xxx.com;  # 直接转发到域名
+    }
 
-		location ~* ^/cc-upload/(.*)$ {
-				#proxy_set_header Host file.cc.xxx.com;
-				proxy_set_header X-Forwarded-Host $host;
-				proxy_set_header X-Forwarded-Server $host;
-				proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-				proxy_pass     http://192.168.0.1:8808/$1$is_args$query_string;  # 转发到java后端
-		}
+    location ~* ^/cc-upload/(.*)$ {
+        #proxy_set_header Host file.cc.xxx.com;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_pass     http://192.168.0.1:8808/$1$is_args$query_string;  # 转发到java后端
+    }
 
-		location ~ ^/luckgw/(.*)$ {
-				proxy_set_header Host $host;
-				proxy_set_header X-Forwarded-Host $host;
-				proxy_set_header X-Forwarded-Server $host;
-				proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-				#设置跨域访问头（也可以在后端代码中设置）
-				proxy_set_header 'Access-Control-Allow-Origin' '*';
-				proxy_set_header 'Access-Control-Allow-Credentials' 'true';
-				proxy_set_header 'Access-Control-Allow-Methods' 'POST, GET, OPTIONS';
-				proxy_pass     http://lucky_gw/$1$is_args$args;  # 转发到upstream
-		}
+    location ~ ^/luckgw/(.*)$ {
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        #设置跨域访问头（也可以在后端代码中设置）
+        proxy_set_header 'Access-Control-Allow-Origin' '*';
+        proxy_set_header 'Access-Control-Allow-Credentials' 'true';
+        proxy_set_header 'Access-Control-Allow-Methods' 'POST, GET, OPTIONS';
+        proxy_pass     http://lucky_gw/$1$is_args$args;  # 转发到upstream
+    }
 
-		##websocket转发配置
-		location /luckyws/edit-sync-server {
-				proxy_pass     http://lucky_gw/ws/edit-sync-server$is_args$query_string;
-				proxy_http_version      1.1;
-				proxy_connect_timeout   4s;
-				proxy_read_timeout      120s;
-				proxy_send_timeout      12s;
-				proxy_set_header Upgrade $http_upgrade;
-				proxy_set_header Connection "Upgrade";
-		}
+    ##websocket转发配置
+    location /luckyws/edit-sync-server {
+        proxy_pass     http://lucky_gw/ws/edit-sync-server$is_args$query_string;
+        proxy_http_version      1.1;
+        proxy_connect_timeout   4s;
+        proxy_read_timeout      120s;
+        proxy_send_timeout      12s;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection "Upgrade";
+    }
 
-		location / {
-				proxy_set_header Host $host;
-				proxy_set_header X-Forwarded-Host $host;
-				proxy_set_header X-Forwarded-Server $host;
-				proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-				proxy_pass     http://web_cc_portal;
-		}
+    location / {
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_pass     http://web_cc_portal;
+    }
 }
 ```
 
