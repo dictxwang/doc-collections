@@ -270,22 +270,21 @@ cat /proc/net/snmp
 ​     	   #查看分配情况
 
 ```shell
-	cat /proc/sys/net/ipv4/tcp_mem
+    cat /proc/sys/net/ipv4/tcp_mem
     183474  244633  366948
 ```
 
 ​        	简单来说，三个值分别表示进入 无压力、压力模式、内存上限的值，当到达最后一个值的时候就会报错。       
 
- 			#查看使用情况     
-
 ```shell
-	cat /proc/net/sockstat
-	sockets: used 855
-	TCP: inuse 17 orphan 1 tw 0 alloc 19 mem 3
-	UDP: inuse 16 mem 10
-	UDPLITE: inuse 0
-	RAW: inuse 1
-	FRAG: inuse 0 memory 0
+    #查看使用情况
+    cat /proc/net/sockstat
+    sockets: used 855
+    TCP: inuse 17 orphan 1 tw 0 alloc 19 mem 3
+    UDP: inuse 16 mem 10
+    UDPLITE: inuse 0
+    RAW: inuse 1
+    FRAG: inuse 0 memory 0
 ```
 
 ​    （2）orphan sockets链接数量过多
@@ -293,15 +292,16 @@ cat /proc/net/snmp
 ​			#查看允许的最大orphans sockets数量
 
 ```
-	cat /proc/sys/net/ipv4/tcp_max_orphans
-	32768
+    cat /proc/sys/net/ipv4/tcp_max_orphans
+    32768
 ```
 
 ​			#查看已有的orphans sockets数量
 
-​			cat /proc/net/sockstat
-
- 			*... ...*     *TCP: inuse 37 orphan 14 tw 8 alloc 39 mem 9*     *... …*
+ 	    cat /proc/net/sockstat
+ 	    #...
+ 	    TCP: inuse 37 orphan 14 tw 8 alloc 39 mem 9
+ 	    #...
 
 #### 6、内存整理
 ##### a、查看内存占用前20的进程：
