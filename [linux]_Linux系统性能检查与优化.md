@@ -291,17 +291,19 @@ cat /proc/net/snmp
 
 ​			#查看允许的最大orphans sockets数量
 
-```
+```shell
     cat /proc/sys/net/ipv4/tcp_max_orphans
     32768
 ```
 
 ​			#查看已有的orphans sockets数量
 
- 	    cat /proc/net/sockstat
- 	    #...
- 	    TCP: inuse 37 orphan 14 tw 8 alloc 39 mem 9
- 	    #...
+```shell
+    cat /proc/net/sockstat
+    #...
+    TCP: inuse 37 orphan 14 tw 8 alloc 39 mem 9
+    #...
+```
 
 #### 6、内存整理
 ##### a、查看内存占用前20的进程：
