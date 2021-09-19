@@ -43,29 +43,29 @@
 
 ##### [linux]_Linux系统性能检查与优化.md
 
-摘要内容 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96.md)]
+记录Linux常用的性能检查相关操作与命令，主要包括负载、cpu、内存、磁盘、网络、系统配置等方面。同时记录了常见的网络通信系统瓶颈和解决方法。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96.md)]
 
 ##### [server]_Nginx编译安装与基础配置.md
 
-摘要 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)]
+记录Nginx通过源码编译安装的过程，包括用于7层转发和用于4层转发的编译安装。基础配置部分主要记录了除转发规则配置外的其他配置。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)]
 
 ##### [server]_Nginx常用转发配置.md
 
-摘要 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AE.md)]
+记录了Nginx用于7层转发和用于4层转发的诸多配置方式和一些技巧。其中基于map方式的配置极大地简化了大量同类转发规则时的配置数量。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AE.md)]
 
 ##### [nosql]_cassandra的相关配置与操作.md
 
-摘要 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)]
+记录cassandra的安装配置流程。并基于实际经验记录了cassandra的诸多使用方式和运维操作流程，例如节点的缩容扩容，数据防丢失等。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)]
 
 ##### [git]_CentOS7下gitlab的安装与使用.md
 
-摘要 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_CentOS7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)]
+完整记录了在CentOS7系统中，安装配置gitlab的全流程。以及gitlab的常用运维操作。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_CentOS7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)]
 
 ##### [git]_git使用简明手册.md
 
-摘要 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%8E%E6%89%8B%E5%86%8C.md)]
+整理记录了git常用的命令和版本管理流程。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%8E%E6%89%8B%E5%86%8C.md)]
 
 ##### [git]_git客户端GUI工具推荐.md
 
-摘要 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E5%AE%A2%E6%88%B7%E7%AB%AFGUI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.md)]
+推荐几款常用的GUI工具，比较知名的如"GitHub Desktop" 和 "SourceTree"。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E5%AE%A2%E6%88%B7%E7%AB%AFGUI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.md)]
 
