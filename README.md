@@ -55,7 +55,7 @@
 
 ##### [nosql]_cassandra的相关配置与操作.md
 
-记录cassandra的安装配置流程。并基于实际经验记录了cassandra的诸多使用方式和运维操作流程，例如节点的缩容扩容，数据防丢失等。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)]
+记录cassandra安装配置的流程。并基于实际经验记录了cassandra的诸多使用方式和运维操作流程，例如节点的缩容扩容，数据防丢失等。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)]
 
 ##### [git]_CentOS7下gitlab的安装与使用.md
 
