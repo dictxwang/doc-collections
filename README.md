@@ -20,6 +20,8 @@
 
 [[server]_Nginx常用转发配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AEmd)]
 
+[[server]_Nginx配置logrotate.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)	[摘要]
+
 #### 四、数据存储
 
 [[nosql]_cassandra的相关配置与操作.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)	[[摘要](https://github.com/dictxwang/doc-collections#nosql_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9Cmd)]
@@ -52,6 +54,10 @@
 ##### [server]_Nginx常用转发配置.md
 
 记录了Nginx用于7层转发和用于4层转发的诸多配置方式和一些技巧。其中基于map方式的配置极大地简化了大量同类转发规则时的配置数量。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AE.md)]
+
+##### [server]_Nginx配置logrotate.md
+
+记录logrotate的简要配置和使用方式。同时记录Nginx利用logrotate实现日志文件的自动切分。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)]
 
 ##### [nosql]_cassandra的相关配置与操作.md
 
