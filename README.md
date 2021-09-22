@@ -14,6 +14,8 @@
 
 #### 二、编程指南
 
+[[java]_Java性能检查与JVM参数优化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)	[[摘要](https://github.com/dictxwang/doc-collections#%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)]
+
 #### 三、工程方案
 
 [[server]_Nginx编译安装与基础配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AEmd)]
@@ -46,6 +48,10 @@
 ##### [linux]_Linux系统性能检查与优化.md
 
 记录Linux常用的性能检查相关操作与命令，主要包括负载、cpu、内存、磁盘、网络、系统配置等方面。同时记录了常见的网络通信系统瓶颈和解决方法。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96.md)]
+
+##### [java]_Java性能检查与JVM参数优化.md
+
+记录Java性能检查的主要步骤和相关命令的使用，同时记录基于java8的GC配置方式。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)]
 
 ##### [server]_Nginx编译安装与基础配置.md
 
