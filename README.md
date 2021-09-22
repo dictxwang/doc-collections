@@ -14,7 +14,7 @@
 
 #### 二、编程指南
 
-[[java]_Java性能检查与JVM参数优化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)	[[摘要](https://github.com/dictxwang/doc-collections#%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)]
+[[java]_Java性能检查与JVM参数优化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)	[[摘要](https://github.com/dictxwang/doc-collections#java_java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8Ejvm%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96md)]
 
 #### 三、工程方案
 
