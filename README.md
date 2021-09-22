@@ -20,7 +20,7 @@
 
 [[server]_Nginx常用转发配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AEmd)]
 
-[[server]_Nginx配置logrotate.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)	[摘要]
+[[server]_Nginx配置logrotate.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E9%85%8D%E7%BD%AElogrotatemd)]
 
 #### 四、数据存储
 
