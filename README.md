@@ -18,7 +18,7 @@
 
 #### 三、工程方案
 
-[[docker]_CentOS7下Docker的安装.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)	[摘要]
+[[docker]_CentOS7下Docker的安装.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_centos7%E4%B8%8Bdocker%E7%9A%84%E5%AE%89%E8%A3%85md)]
 
 [[server]_Nginx编译安装与基础配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AEmd)]
 
