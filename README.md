@@ -18,6 +18,8 @@
 
 #### 三、工程方案
 
+[[docker]_CentOS7下Docker的安装.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)	[摘要]
+
 [[server]_Nginx编译安装与基础配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AEmd)]
 
 [[server]_Nginx常用转发配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AEmd)]
@@ -52,6 +54,10 @@
 ##### [java]_Java性能检查与JVM参数优化.md
 
 记录Java性能检查的主要步骤和相关命令的使用，同时记录基于java8的GC配置方式。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)]
+
+##### [docker]_CentOS7下Docker的安装.md
+
+记录Docker的安装全过程，以及基本配置方式。并且简要记录了基于nexus搭建docker私服的方法。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)]
 
 ##### [server]_Nginx编译安装与基础配置.md
 
