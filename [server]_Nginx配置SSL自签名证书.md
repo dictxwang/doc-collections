@@ -101,7 +101,7 @@ server {
 		#charset utf-8;
 
 		ssl_certificate     /usr/local/nginx/conf/ssl/server-cert.pem;
-        ssl_certificate_key /usr/local/nginx/conf/ssl/server-key.pem;
+    	ssl_certificate_key /usr/local/nginx/conf/ssl/server-key.pem;
     
         ssl_session_cache    shared:SSL:1m;
         ssl_session_timeout  5m;
