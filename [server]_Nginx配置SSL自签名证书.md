@@ -95,12 +95,12 @@ openssl pkcs12 -export -out ca.p12 -inkey ca-key.pem -in ca-cert.pem
 
 ```nginx
 server {
-		listen       80;    # 支持http访问
-		listen      443 ssl;    # 支持https访问
-		server_name  test.wangqiang.cc;
-		#charset utf-8;
+	listen       80;    # 支持http访问
+	listen      443 ssl;    # 支持https访问
+	server_name  test.wangqiang.cc;
+	#charset utf-8;
 
-		ssl_certificate     /usr/local/nginx/conf/ssl/server-cert.pem;
+	ssl_certificate     /usr/local/nginx/conf/ssl/server-cert.pem;
     	ssl_certificate_key /usr/local/nginx/conf/ssl/server-key.pem;
     
         ssl_session_cache    shared:SSL:1m;
