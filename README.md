@@ -40,6 +40,8 @@
 
 [[git]_git客户端GUI工具推荐.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E5%AE%A2%E6%88%B7%E7%AB%AFGUI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.md)	[[摘要](https://github.com/dictxwang/doc-collections#git_git%E5%AE%A2%E6%88%B7%E7%AB%AFgui%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90md)]
 
+[[postman]_Postman的使用技巧.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bpostman%5D_Postman%E7%9A%84%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.md)	[摘要]
+
 #### 六、一些技巧
 
 
@@ -93,3 +95,6 @@
 
 推荐几款常用的GUI工具，比较知名的如"GitHub Desktop" 和 "SourceTree"。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E5%AE%A2%E6%88%B7%E7%AB%AFGUI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.md)]
 
+##### [postman]_Postman的使用技巧.md
+
+记录postman使用中的一些技巧性操作，比如全局方法和全局变量的定义，Pre-request Script脚本的应用。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bpostman%5D_Postman%E7%9A%84%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7.md)]
