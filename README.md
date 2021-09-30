@@ -26,7 +26,7 @@
 
 [[server]_Nginx配置logrotate.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E9%85%8D%E7%BD%AElogrotatemd)]
 
-[[server]_Nginx配置SSL自签名证书.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)	[摘要]
+[[server]_Nginx配置SSL自签名证书.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E9%85%8D%E7%BD%AEssl%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6md)]
 
 #### 四、数据存储
 
