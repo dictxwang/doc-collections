@@ -26,6 +26,8 @@
 
 [[server]_Nginx配置logrotate.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E9%85%8D%E7%BD%AElogrotatemd)]
 
+[[server]_Nginx配置SSL自签名证书.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)	[摘要]
+
 #### 四、数据存储
 
 [[nosql]_cassandra的相关配置与操作.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)	[[摘要](https://github.com/dictxwang/doc-collections#nosql_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9Cmd)]
@@ -70,6 +72,10 @@
 ##### [server]_Nginx配置logrotate.md
 
 记录logrotate的简要配置和使用方式。同时记录Nginx利用logrotate实现日志文件的自动切分。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)]
+
+##### [server]_Nginx配置SSL自签名证书.md
+
+记录通过openssl创建自签名证书的流程，以及Nginx配置自签名证书的方法。[[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)]
 
 ##### [nosql]_cassandra的相关配置与操作.md
 
