@@ -32,7 +32,7 @@
 
 [[nosql]_cassandra的相关配置与操作.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)	[[摘要](https://github.com/dictxwang/doc-collections#nosql_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9Cmd)]
 
-[[sql]_Mysql主备模式安装与配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)	[摘要]
+[[sql]_Mysql主备模式安装与配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#sql_mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AEmd)]
 
 #### 五、常用工具
 
