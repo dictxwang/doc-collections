@@ -32,6 +32,8 @@
 
 [[nosql]_cassandra的相关配置与操作.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)	[[摘要](https://github.com/dictxwang/doc-collections#nosql_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9Cmd)]
 
+[[sql]_Mysql主备模式安装与配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)	[摘要]
+
 #### 五、常用工具
 
 [[git]_CentOS7下gitlab的安装与使用.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_CentOS7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)	[[摘要](https://github.com/dictxwang/doc-collections#git_centos7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8md)]
@@ -82,6 +84,10 @@
 ##### [nosql]_cassandra的相关配置与操作.md
 
 记录cassandra安装配置的流程。并基于实际经验记录了cassandra的诸多使用方式和运维操作流程，例如节点的缩容扩容，数据防丢失等。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bnosql%5D_cassandra%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E4%B8%8E%E6%93%8D%E4%BD%9C.md)]
+
+##### [sql]_Mysql主备模式安装与配置.md
+
+记录在CentOS系统上，通过rpm包，完成mysql主备模式的安装与配置的全流程，以及一些常见问题的处理。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)]
 
 ##### [git]_CentOS7下gitlab的安装与使用.md
 
