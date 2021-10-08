@@ -20,6 +20,8 @@
 
 [[docker]_CentOS7下Docker的安装.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_centos7%E4%B8%8Bdocker%E7%9A%84%E5%AE%89%E8%A3%85md)]
 
+[[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)]
+
 [[server]_Nginx编译安装与基础配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AEmd)]
 
 [[server]_Nginx常用转发配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E5%B8%B8%E7%94%A8%E8%BD%AC%E5%8F%91%E9%85%8D%E7%BD%AEmd)]
@@ -64,6 +66,10 @@
 ##### [docker]_CentOS7下Docker的安装.md
 
 记录Docker的安装全过程，以及基本配置方式。并且简要记录了基于nexus搭建docker私服的方法。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)]
+
+##### [server]_Linux上安装配置Samba.md
+
+记录在Linux上安装配置Samba的流程。Samba可以用于搭建跨平台的共享磁盘，便于团队内部共享资料的存储与管理。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)]
 
 ##### [server]_Nginx编译安装与基础配置.md
 
