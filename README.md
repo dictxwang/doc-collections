@@ -12,6 +12,8 @@
 
 [[linux]_Linux系统性能检查与优化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96.md)	[[摘要](https://github.com/dictxwang/doc-collections#linux_linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96md)]
 
+[[linux]_Linux系统磁盘的挂载与格式化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E7%A3%81%E7%9B%98%E7%9A%84%E6%8C%82%E8%BD%BD%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96.md)	[摘要]
+
 #### 二、编程指南
 
 [[java]_Java性能检查与JVM参数优化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bjava%5D_Java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8EJVM%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96.md)	[[摘要](https://github.com/dictxwang/doc-collections#java_java%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8Ejvm%E5%8F%82%E6%95%B0%E4%BC%98%E5%8C%96md)]
@@ -58,6 +60,10 @@
 ##### [linux]_Linux系统性能检查与优化.md
 
 记录Linux常用的性能检查相关操作与命令，主要包括负载、cpu、内存、磁盘、网络、系统配置等方面。同时记录了常见的网络通信系统瓶颈和解决方法。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96.md)]
+
+##### [linux]_Linux系统磁盘的挂载与格式化.md
+
+记录Linux系统上，对磁盘进行分区格式化和挂载的全流程。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E7%A3%81%E7%9B%98%E7%9A%84%E6%8C%82%E8%BD%BD%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96.md)]
 
 ##### [java]_Java性能检查与JVM参数优化.md
 
