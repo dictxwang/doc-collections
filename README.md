@@ -12,7 +12,7 @@
 
 [[linux]_Linux系统性能检查与优化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96.md)	[[摘要](https://github.com/dictxwang/doc-collections#linux_linux%E7%B3%BB%E7%BB%9F%E6%80%A7%E8%83%BD%E6%A3%80%E6%9F%A5%E4%B8%8E%E4%BC%98%E5%8C%96md)]
 
-[[linux]_Linux系统磁盘的挂载与格式化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E7%A3%81%E7%9B%98%E7%9A%84%E6%8C%82%E8%BD%BD%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96.md)	[摘要]
+[[linux]_Linux系统磁盘的挂载与格式化.md](https://github.com/dictxwang/doc-collections/blob/main/%5Blinux%5D_Linux%E7%B3%BB%E7%BB%9F%E7%A3%81%E7%9B%98%E7%9A%84%E6%8C%82%E8%BD%BD%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96.md)	[[摘要](https://github.com/dictxwang/doc-collections#linux_linux%E7%B3%BB%E7%BB%9F%E7%A3%81%E7%9B%98%E7%9A%84%E6%8C%82%E8%BD%BD%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96md)]
 
 #### 二、编程指南
 
