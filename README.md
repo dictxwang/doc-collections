@@ -22,6 +22,8 @@
 
 [[docker]_CentOS7下Docker的安装.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_centos7%E4%B8%8Bdocker%E7%9A%84%E5%AE%89%E8%A3%85md)]
 
+[[docker]_Docker简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[摘要]
+
 [[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsambamd)]
 
 [[server]_Nginx编译安装与基础配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AEmd)]
@@ -40,9 +42,11 @@
 
 #### 五、常用工具
 
+[[gdb]_DBD简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgdb%5D_GDB%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[摘要]
+
 [[git]_CentOS7下gitlab的安装与使用.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_CentOS7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)	[[摘要](https://github.com/dictxwang/doc-collections#git_centos7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8md)]
 
-[[git]_git使用简明手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%8E%E6%89%8B%E5%86%8C.md)	[[摘要](https://github.com/dictxwang/doc-collections#git_git%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%8E%E6%89%8B%E5%86%8Cmd)]
+[[git]_git使用简明手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[[摘要](https://github.com/dictxwang/doc-collections#git_git%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cmd)]
 
 [[git]_git客户端GUI工具推荐.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E5%AE%A2%E6%88%B7%E7%AB%AFGUI%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.md)	[[摘要](https://github.com/dictxwang/doc-collections#git_git%E5%AE%A2%E6%88%B7%E7%AB%AFgui%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90md)]
 
@@ -73,6 +77,10 @@
 
 记录Docker的安装全过程，以及基本配置方式。并且简要记录了基于nexus搭建docker私服的方法。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)]
 
+##### [docker]_Docker简明使用手册.md
+
+记录Docker常用的操作及其命令描述。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)]
+
 ##### [server]_Linux上安装配置Samba.md
 
 记录在Linux上安装配置Samba的流程。Samba可以用于搭建跨平台的共享磁盘，便于团队内部共享资料的存储与管理。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)]
@@ -101,13 +109,17 @@
 
 记录在CentOS系统上，通过rpm包，完成mysql主备模式的安装与配置的全流程，以及一些常见问题的处理。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)]
 
+##### [gdb]_GDB简明使用手册.md
+
+记录gdb的安装（特别是MacOS上的安装认证），以及常用的一些使用说明。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgdb%5D_GDB%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)]
+
 ##### [git]_CentOS7下gitlab的安装与使用.md
 
 完整记录了在CentOS7系统中，安装配置gitlab的全流程。以及gitlab的常用运维操作。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_CentOS7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)]
 
 ##### [git]_git简明使用手册.md
 
-整理记录了git常用的命令和版本管理流程。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%8E%E6%89%8B%E5%86%8C.md)]
+整理记录了git常用的命令和版本管理流程。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)]
 
 ##### [git]_git客户端GUI工具推荐.md
 
