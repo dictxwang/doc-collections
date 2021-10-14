@@ -22,7 +22,7 @@
 
 [[docker]_CentOS7下Docker的安装.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_centos7%E4%B8%8Bdocker%E7%9A%84%E5%AE%89%E8%A3%85md)]
 
-[[docker]_Docker简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[摘要]
+[[docker]_Docker简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cmd)]
 
 [[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsambamd)]
 
@@ -42,7 +42,7 @@
 
 #### 五、常用工具
 
-[[gdb]_DBD简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgdb%5D_GDB%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[摘要]
+[[gdb]_DBD简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgdb%5D_GDB%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[[摘要](https://github.com/dictxwang/doc-collections#gdb_gdb%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cmd)]
 
 [[git]_CentOS7下gitlab的安装与使用.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_CentOS7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)	[[摘要](https://github.com/dictxwang/doc-collections#git_centos7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8md)]
 
