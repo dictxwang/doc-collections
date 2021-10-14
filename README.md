@@ -105,7 +105,7 @@
 
 完整记录了在CentOS7系统中，安装配置gitlab的全流程。以及gitlab的常用运维操作。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_CentOS7%E4%B8%8Bgitlab%E7%9A%84%E5%AE%89%E8%A3%85%E4%B8%8E%E4%BD%BF%E7%94%A8.md)]
 
-##### [git]_git使用简明手册.md
+##### [git]_git简明使用手册.md
 
 整理记录了git常用的命令和版本管理流程。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bgit%5D_git%E4%BD%BF%E7%94%A8%E7%AE%80%E6%98%8E%E6%89%8B%E5%86%8C.md)]
 
