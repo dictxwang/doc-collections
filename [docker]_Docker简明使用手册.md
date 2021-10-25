@@ -37,6 +37,16 @@ docker inspect containerId/imageId	//查看容器信息
 
 docker top containerId	//查看容器内运行的进程
 
+#### 3、启动已有的镜像
+
+docker pull centos	// 拉取镜像
+
+docker run -ti centos bash	// 启动镜像，并进入伪终端
+
+docker run -ti -cpus=1 centos bash	// 限制使用cpu数量
+
+ctrl + pq	// 退出镜像
+
 ### 二、文件操作
 
 #### 1、文件复制（容器 -> 宿主机）
