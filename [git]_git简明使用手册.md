@@ -174,7 +174,19 @@ git diff HEAD
 ###### 显示写了多少行代码，统计未提交的代码
 git diff --shortstat "@{0 day ago}"
 ###### 显示某次提交的元数据和内容变化
+
 git show [CommitId]
+
+###### 对比暂存区和特定提交（不带commitId默认和HEAD对比）
+
+git diff --staged [CommitId]
+
+git diff --cached [CommitId]
+
+###### 对比两次commitgit
+
+diff commitId1 commitId2
+
 ###### 显示某次提交时，某个文件的内容
 git show [CommitId]:filex.log  # 不指定CommitId时，默认显示最新的一次commit
 ###### 显示当前分支所有的操作记录，包括提交、回退的操作
