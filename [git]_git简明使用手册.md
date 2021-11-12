@@ -222,6 +222,16 @@ git rebase --edit-todo  # 异常退出vi窗口时，重新进入
 
 git rebase --continue  # 异常退出时，修改完成后继续执行rebase
 
+###### 项目迁移
+
+git clone http://github/xxx.git	# 先下载迁移前的项目
+
+cd xxx	# 进入项目路径
+
+git remote set-url origin http://github/newxx.git	# newxx.git 为新建的项目位置
+
+git push origin --all	# 上传当前分支到新的项目库
+
 ### 二、git的常见问题
 
 #### 1、冲突的处理
