@@ -37,6 +37,10 @@ docker inspect containerId/imageId	//查看容器信息
 
 docker top containerId	//查看容器内运行的进程
 
+docker rm containerId // 删除指定容器
+
+docker rm $(docker ps -aq) // 删除所有的容器
+
 #### 3、启动已有的镜像
 
 docker pull centos	// 拉取镜像
@@ -76,6 +80,10 @@ docker exec -it ${containerId/name} bash
 #### 3、在容器中执行shell（以指定用户）
 
 docker exec -it --user root ${containerName} bash
+
+#### 4、启动nginx
+
+docker run --name nginx-qiang -p8080:80 -d nginx   # 将容器的80端口映射到宿主机的8080端口
 
 ### 四、镜像操作
 

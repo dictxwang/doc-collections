@@ -154,6 +154,8 @@
 
 ​    cat /proc/${pid}/oom_score: 进程的oom得分，系统资源不足时会优先kill oom得分最高（oom_score+oom_score_adj）的进程 oom_score_adj可以理解为自定义的优先级
 
+​	echo -17 > /proc/${pid}/oom_score_adj 禁止某个进制被oom killer执行
+
 ### 二、常见性能问题解决方案
 
 #### 1、解决tcp链接TIME_WAIT过多引起的问题

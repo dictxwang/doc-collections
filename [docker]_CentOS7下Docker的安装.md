@@ -105,7 +105,7 @@ vim /etc/docker/daemon.json
 
 ### 六、启动docker
 
-    #### 1、设置docker镜像拉取地址（避免拉取慢的问题）
+#### 1、设置docker镜像拉取地址（避免拉取慢的问题）
 
 ​        阿里云加速地址查看： https://cr.console.aliyun.com/undefined/instances/mirrors
 
@@ -113,11 +113,15 @@ vim /etc/docker/daemon.json
 
 ​        {"registry-mirrors":["https://xxxxxxx.mirror.aliyuncs.com"]}
 
-    #### 2、启动服务
+#### 2、启动服务
 
 ​        a、sudo service docker start
 
 ​        b、sudo systemctl start docker.service
+
+#### 3、重启服务
+
+​		systemctl daemon-reload  && systemctl restart docker
 
 ### 七、验证docker运行
 
