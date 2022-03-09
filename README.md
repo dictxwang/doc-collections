@@ -24,6 +24,8 @@
 
 [[docker]_Docker简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cmd)]
 
+[[docker]_Docker下运行Nginx和Python.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E4%B8%8B%E8%BF%90%E8%A1%8CNginx%E5%92%8CPython.md)	[摘要]
+
 [hadoop]_hadoop执行python并行任务	[摘要]
 
 [[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsambamd)]
@@ -82,6 +84,10 @@
 ##### [docker]_Docker简明使用手册.md
 
 记录Docker常用的操作及其命令描述。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)]
+
+##### [docker]_Docker下运行Nginx和Python.md
+
+docker容器中运行nginx服务和python脚本的示例。	[[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E4%B8%8B%E8%BF%90%E8%A1%8CNginx%E5%92%8CPython.md)]
 
 ##### [hadoop]_hadoop执行python并行任务.md
 
