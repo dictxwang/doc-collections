@@ -26,6 +26,8 @@
 
 [[docker]_Docker下运行Nginx和Python.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E4%B8%8B%E8%BF%90%E8%A1%8CNginx%E5%92%8CPython.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AEmd)]
 
+[[hadoop]_hadoop执行java并行任务.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhadoop%5D_hadoop%E6%89%A7%E8%A1%8Cjava%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1.md)	[[摘要](https://github.com/dictxwang/doc-collections#hadoop_hadoop%E6%89%A7%E8%A1%8Cjava%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1md)]
+
 [[hadoop]_hadoop执行python并行任务.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhadoop%5D_hadoop%E6%89%A7%E8%A1%8Cpython%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1.md)	[[摘要](https://github.com/dictxwang/doc-collections#hadoop_hadoop%E6%89%A7%E8%A1%8Cpython%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1md)]
 
 [[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsambamd)]
@@ -88,6 +90,10 @@
 ##### [docker]_Docker下运行Nginx和Python.md
 
 docker容器中运行nginx服务和python脚本的示例。	[[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E4%B8%8B%E8%BF%90%E8%A1%8CNginx%E5%92%8CPython.md)]
+
+##### [hadoop]_hadoop执行java并行任务.md
+
+记录hadoop的map-reduce的一个实例任务（WordCount）。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bhadoop%5D_hadoop%E6%89%A7%E8%A1%8Cjava%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1.md)]
 
 ##### [hadoop]_hadoop执行python并行任务.md
 
