@@ -60,7 +60,7 @@ print("Hello,World!");
 ##### b、requirements.txt
 
 ```shell
-# 没有遗漏置空即可
+# 没有依赖置空即可
 ```
 
 #### 2、直接通过docker执行
