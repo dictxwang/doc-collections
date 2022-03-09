@@ -1,6 +1,6 @@
 # doc-collections
 
-这个合集是我的原创手册类型技术文档合集，基于多年来编程开发中积累整理而来。
+这个合集是我的原创技术文档合集，基于平时编程开发中积累整理而来。
 
 合集中文档的内容涵盖了系统的应用、命令的解读、软件的安装、工具的使用、流程的建设、程序的优化等方方面面，便于在随后的开发中随时查阅。
 
@@ -23,6 +23,8 @@
 [[docker]_CentOS7下Docker的安装.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_CentOS7%E4%B8%8BDocker%E7%9A%84%E5%AE%89%E8%A3%85.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_centos7%E4%B8%8Bdocker%E7%9A%84%E5%AE%89%E8%A3%85md)]
 
 [[docker]_Docker简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[[摘要](https://github.com/dictxwang/doc-collections#docker_docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cmd)]
+
+[hadoop]_hadoop执行python并行任务	[摘要]
 
 [[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsambamd)]
 
@@ -80,6 +82,10 @@
 ##### [docker]_Docker简明使用手册.md
 
 记录Docker常用的操作及其命令描述。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)]
+
+##### [hadoop]_hadoop执行python并行任务.md
+
+记录基于hadoop的stream(hadoop-streaming-2.8.1.jar)执行python编写的map-reduce任务。  [详情]
 
 ##### [server]_Linux上安装配置Samba.md
 
