@@ -78,15 +78,15 @@ step6: 在S1执行 mysql> rollback;  # 借用回滚模式，终止S1的事务
 step1: 在S1执行 mysql> begin;  # 开启S1的事务
 step2: 在S1执行 mysql> select * from wangqiang_test6 where fname = "qian" for update;
 step3: 在S2执行 mysql> insert into wangqiang_test6 (cid, fname, sname) values (1030, "jiang", "000x");  # 数据插入成功
-step4: 在S2执行 mysql> insert into wangqiang_test6 (cid, fname, sname) values (1030, "meng", "000x");  # 阻塞
+step4: 在S2执行 mysql> insert into wangqiang_test6 (cid, fname, sname) values (1031, "meng", "000x");  # 阻塞
 step5: 终止step4，重新在S2执行 mysql> insert into wangqiang_test6 (cid, fname, sname) values (1031, "ren", "000x");  # 阻塞
 step6: 终止step5，重新在S2执行 mysql> insert into wangqiang_test6 (cid, fname, sname) values (1032, "xu", "000x");  # 数据插入成功
 step7: 在S1执行 mysql> rollback;  # 借用回滚模式，终止S1的事务
 ```
 
->>结论：当采用普通二级索引查询单条记录并加锁时，及时该条数据存储，已让会产生间隙锁，连同自身的记录锁构成了临键锁。
+>>结论：当采用普通二级索引查询单条记录并加锁时，及时该条数据存储，依然会产生间隙锁，连同自身的记录锁构成了临键锁。
 >>
->>如果查询条件指定的数据不存在，已让会在条件前后产生间隙锁，从而构成临键锁。
+>>如果查询条件指定的数据不存在，会在条件前后产生间隙锁，从而构成临键锁。
 
 ### 六、演示死锁的发生
 
@@ -128,8 +128,8 @@ mysql> show status like "%lock%";  # 查看锁表状况
 #### 3、主动锁表与释放
 
 ```mysql
-mysql> lock table t1 read;
-mysql> unlock table t1;
+mysql> lock tables t1 read;  # 可以获取read锁或者write锁
+mysql> unlock tables;
 ```
 
 #### 4、锁的关键字
