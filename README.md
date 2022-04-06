@@ -46,6 +46,8 @@
 
 [[sql]_Mysql主备模式安装与配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#sql_mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AEmd)]
 
+[[sql]_Mysql的间隙锁与临键锁.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E7%9A%84%E9%97%B4%E9%9A%99%E9%94%81%E4%B8%8E%E4%B8%B4%E9%94%AE%E9%94%81.md)	[[摘要]()]
+
 #### 五、常用工具
 
 [[gdb]_DBD简明使用手册.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bgdb%5D_GDB%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.md)	[[摘要](https://github.com/dictxwang/doc-collections#gdb_gdb%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8Cmd)]
@@ -126,6 +128,10 @@ docker容器中运行nginx服务和python脚本的示例。	[[详情](https://gi
 ##### [sql]_Mysql主备模式安装与配置.md
 
 记录在CentOS系统上，通过rpm包，完成mysql主备模式的安装与配置的全流程，以及一些常见问题的处理。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)]
+
+##### [sql]_Mysql的间隙锁与临键锁.md
+
+介绍mysql间隙锁与临键锁的相关概念、作用及出现的场景。并记录mysql锁相关的查询方式及异常处理流程。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E7%9A%84%E9%97%B4%E9%9A%99%E9%94%81%E4%B8%8E%E4%B8%B4%E9%94%AE%E9%94%81.md)]
 
 ##### [gdb]_GDB简明使用手册.md
 
