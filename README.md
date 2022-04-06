@@ -46,7 +46,7 @@
 
 [[sql]_Mysql主备模式安装与配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#sql_mysql%E4%B8%BB%E5%A4%87%E6%A8%A1%E5%BC%8F%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AEmd)]
 
-[[sql]_Mysql的间隙锁与临键锁.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E7%9A%84%E9%97%B4%E9%9A%99%E9%94%81%E4%B8%8E%E4%B8%B4%E9%94%AE%E9%94%81.md)	[[摘要]()]
+[[sql]_Mysql的间隙锁与临键锁.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bsql%5D_Mysql%E7%9A%84%E9%97%B4%E9%9A%99%E9%94%81%E4%B8%8E%E4%B8%B4%E9%94%AE%E9%94%81.md)	[[摘要](https://github.com/dictxwang/doc-collections#sql_mysql%E7%9A%84%E9%97%B4%E9%9A%99%E9%94%81%E4%B8%8E%E4%B8%B4%E9%94%AE%E9%94%81md)]
 
 #### 五、常用工具
 
