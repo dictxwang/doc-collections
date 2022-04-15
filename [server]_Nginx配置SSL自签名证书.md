@@ -8,7 +8,7 @@
 ##### a、创建私钥
 
 ```shell
-openssl genrsa -out ca-key.pem 1024
+openssl genrsa -out ca-key.pem 1024  # 这里私钥位数可做升级，下同
 ```
 
 ##### b、创建csr证书请求
@@ -26,7 +26,9 @@ openssl req -new -key ca-key.pem -out ca-req.csr -subj "/C=CN/ST=BJ/L=BJ/O=sg_oc
 ##### c、生成crt证书
 
 ```shell
-openssl x509 -req -in ca-req.csr -out ca-cert.pem -signkey ca-key.pem -days 3650
+# 通常不建议超过一年的有效期，chrome等浏览器对于超长的有效期会有安全提示
+# 这里需要升级为sha256及以上的摘要算法，默认是sha1
+openssl x509 -req -in ca-req.csr -out ca-cert.pem -signkey ca-key.pem -days 365 -sha256
 ```
 
 #### 2、创建服务端证书
@@ -40,7 +42,7 @@ openssl genrsa -out server-key.pem 1024
 ##### b、创建csr证书（两种方式）
 
 ```shell
-    openssl req -new -out server-req.csr -key server-key.pem -subj "/C=CN/ST=BJ/L=BJ/O=sg_ocm_2/OU=sg_ocm_2a/CN=test.wangqiang.cc"
+    openssl req -new -out server-req.csr -key server-key.pem -subj "/C=CN/ST=BJ/L=BJ/O=sg_ocm_2/OU=sg_ocm_2a/CN=test.wangqiang.cc" -sha256
     #../conf/server.csr.cnf 内容见下文的“其他事项”
     openssl req -new -sha256 -out server-req.csr -key server-key.pem -config ../conf/server.csr.cnf
 ```
@@ -48,9 +50,9 @@ openssl genrsa -out server-key.pem 1024
 ##### c、生成crt证书（两种方式）
 
 ```shell
-openssl x509 -req -in server-req.csr -out server-cert.pem -signkey server-key.pem -CA ca-cert.pem -CAkey ca-key.pem -CAcreateserial -days 3650
+openssl x509 -req -in server-req.csr -out server-cert.pem -signkey server-key.pem -CA ca-cert.pem -CAkey ca-key.pem -CAcreateserial -days 365 -sha256
     #../conf/v3.ext 内容见下文的“其他事项”
-    openssl x509 -req -in server-req.csr -out server-cert.pem -signkey server-key.pem -CA ca-cert.pem -CAkey ca-key.pem -CAcreateserial -days 3650 -sha256 -extfile ../conf/v3.ext
+    openssl x509 -req -in server-req.csr -out server-cert.pem -signkey server-key.pem -CA ca-cert.pem -CAkey ca-key.pem -CAcreateserial -days 365 -sha256 -extfile ../conf/v3.ext
 ```
 
 *完成上面两步操作后，会得到以下7个文件*
@@ -68,7 +70,10 @@ openssl x509 -req -in server-req.csr -out server-cert.pem -signkey server-key.pe
 #### 3、验证证书
 
 ```shell
+# 仅验证有效性
 openssl verify -CAfile ca-cert.pem  server-cert.pem
+# 以文本方式查看证书内容
+openssl x509 -text -in server-cert.pem -noout
 ```
 
 #### 4、手动安装客户端证书
@@ -149,7 +154,9 @@ subjectAltName = @alt_names
 [alt_names]
 DNS.1 = test.wangqiang.cc
 DNS.2 = test.wangqiang03.cc
-DNS.2 = test.wangqiang.cn
+DNS.3 = *.wangqiang.cn
+DNS.4 = wangqiang.cn
+IP.1 = 1.1.1.1
 ```
 
 #### 2、不同主域名使用同一个SSL证书
@@ -163,6 +170,7 @@ DNS.2 = test.wangqiang.cn
 DNS.1 = test.wangqiang.cc
 DNS.2 = test.wangqiang03.cc
 DNS.2 = test.wangqiang.cn
+IP.1 = 1.1.1.1
 ```
 
 #### 3、Haproxy配置https的透传转发
