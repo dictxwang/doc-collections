@@ -30,6 +30,10 @@
 
 [[hadoop]_hadoop执行python并行任务.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhadoop%5D_hadoop%E6%89%A7%E8%A1%8Cpython%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1.md)	[[摘要](https://github.com/dictxwang/doc-collections#hadoop_hadoop%E6%89%A7%E8%A1%8Cpython%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1md)]
 
+[[hive]_hive与hbase整合.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%8Ehbase%E6%95%B4%E5%90%88.md)	[[摘要]()]
+
+[[hive]_hive中的数据导入导出.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.md)	[[摘要]()]
+
 [[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsambamd)]
 
 [[server]_Nginx编译安装与基础配置.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AEmd)]
@@ -39,6 +43,8 @@
 [[server]_Nginx配置logrotate.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E9%85%8D%E7%BD%AElogrotatemd)]
 
 [[server]_Nginx配置SSL自签名证书.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E9%85%8D%E7%BD%AEssl%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6md)]
+
+[[spark]_Spark简明使用纪要.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bspark%5D_Spark%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E7%BA%AA%E8%A6%81.md)	[[摘要]()]
 
 #### 四、数据存储
 
@@ -101,13 +107,21 @@ docker容器中运行nginx服务和python脚本的示例。	[[详情](https://gi
 
 记录基于hadoop的stream(hadoop-streaming-2.8.1.jar)执行python编写的map-reduce任务。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bhadoop%5D_hadoop%E6%89%A7%E8%A1%8Cpython%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1.md)]
 
+##### [hive]_hive与hbase整合.md
+
+记录hive与hbase结合使用的方式，加速hbase数据使用的效率。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%8Ehbase%E6%95%B4%E5%90%88.md)]
+
+##### [hive]_hive中的数据导入导出.md
+
+记录从hive中导入导出数据的多种方式，比如从本地导入导出、从hdfs导入导出；日常数据分析常常会用到。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.md)]
+
 ##### [server]_Linux上安装配置Samba.md
 
 记录在Linux上安装配置Samba的流程。Samba可以用于搭建跨平台的共享磁盘，便于团队内部共享资料的存储与管理。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)]
 
 ##### [server]_Nginx编译安装与基础配置.md
 
-记录Nginx通过源码编译安装的过程，包括用于7层转发和用于4层转发的编译安装。基础配置部分主要记录了除转发规则配置外的其他配置。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)]
+记录Nginx通过源码编译安装的过程，包括用于7层转发和用于4层转发的编译安装。基础配置部分主要记录了除转发规则配置外的其他配置。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85%E4%B8%8E%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE.md)]
 
 ##### [server]_Nginx常用转发配置.md
 
@@ -115,11 +129,15 @@ docker容器中运行nginx服务和python脚本的示例。	[[详情](https://gi
 
 ##### [server]_Nginx配置logrotate.md
 
-记录logrotate的简要配置和使用方式。同时记录Nginx利用logrotate实现日志文件的自动切分。 [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)]
+记录logrotate的简要配置和使用方式。同时记录Nginx利用logrotate实现日志文件的自动切分。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AElogrotate.md)]
 
 ##### [server]_Nginx配置SSL自签名证书.md
 
-记录通过openssl创建自签名证书的流程，以及Nginx配置自签名证书的方法。[[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)]
+记录通过openssl创建自签名证书的流程，以及Nginx配置自签名证书的方法。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)]
+
+##### [spark]_Spark简明使用纪要.md
+
+记录spark常用的操作，比如执行shell、sql，或者通过spark-submit提交任务；提交python脚本任务或者scala任务等。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bspark%5D_Spark%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E7%BA%AA%E8%A6%81.md)]
 
 ##### [nosql]_cassandra的相关配置与操作.md
 
