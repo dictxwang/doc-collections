@@ -30,9 +30,9 @@
 
 [[hadoop]_hadoop执行python并行任务.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhadoop%5D_hadoop%E6%89%A7%E8%A1%8Cpython%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1.md)	[[摘要](https://github.com/dictxwang/doc-collections#hadoop_hadoop%E6%89%A7%E8%A1%8Cpython%E5%B9%B6%E8%A1%8C%E4%BB%BB%E5%8A%A1md)]
 
-[[hive]_hive与hbase整合.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%8Ehbase%E6%95%B4%E5%90%88.md)	[[摘要]()]
+[[hive]_hive与hbase整合.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%8Ehbase%E6%95%B4%E5%90%88.md)	[[摘要](https://github.com/dictxwang/doc-collections#hive_hive%E4%B8%8Ehbase%E6%95%B4%E5%90%88md)]
 
-[[hive]_hive中的数据导入导出.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.md)	[[摘要]()]
+[[hive]_hive中的数据导入导出.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bhive%5D_hive%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA.md)	[[摘要](https://github.com/dictxwang/doc-collections#hive_hive%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BAmd)]
 
 [[server]_Linux上安装配置Samba.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AESamba.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_linux%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEsambamd)]
 
@@ -44,7 +44,7 @@
 
 [[server]_Nginx配置SSL自签名证书.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bserver%5D_Nginx%E9%85%8D%E7%BD%AESSL%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6.md)	[[摘要](https://github.com/dictxwang/doc-collections#server_nginx%E9%85%8D%E7%BD%AEssl%E8%87%AA%E7%AD%BE%E5%90%8D%E8%AF%81%E4%B9%A6md)]
 
-[[spark]_Spark简明使用纪要.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bspark%5D_Spark%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E7%BA%AA%E8%A6%81.md)	[[摘要]()]
+[[spark]_Spark简明使用纪要.md](https://github.com/dictxwang/doc-collections/blob/main/%5Bspark%5D_Spark%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E7%BA%AA%E8%A6%81.md)	[[摘要](https://github.com/dictxwang/doc-collections#spark_spark%E7%AE%80%E6%98%8E%E4%BD%BF%E7%94%A8%E7%BA%AA%E8%A6%81md)]
 
 #### 四、数据存储
 
@@ -97,7 +97,7 @@
 
 ##### [docker]_Docker下运行Nginx和Python.md
 
-docker容器中运行nginx服务和python脚本的示例。	[[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E4%B8%8B%E8%BF%90%E8%A1%8CNginx%E5%92%8CPython.md)]
+docker容器中运行nginx服务和python脚本的示例。  [[详情](https://github.com/dictxwang/doc-collections/blob/main/%5Bdocker%5D_Docker%E4%B8%8B%E8%BF%90%E8%A1%8CNginx%E5%92%8CPython.md)]
 
 ##### [hadoop]_hadoop执行java并行任务.md
 
